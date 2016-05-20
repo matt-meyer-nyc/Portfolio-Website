@@ -1,0 +1,497 @@
+@import url(https://fonts.googleapis.com/css?family=Rock+Salt);
+
+body {
+  background-color: black;
+}
+p1, p2, p3 {
+  z-index:1;
+}
+
+
+
+/*
+--------------
+PAGE 1
+--------------
+*/
+
+#links {
+position: absolute;
+/*top: 100px;*/
+display:flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+align-content: flex-start;
+align-items: flex-start;
+height: 100vw;
+min-width: 940px;
+}
+
+ul {
+  list-style:none;
+}
+#navs {
+  padding: 80px;
+  text-decoration: none;
+}
+
+
+#page1 {
+}
+
+#p1P {
+  height: 768px;
+  width: 100%;
+}
+
+.boats {
+display: inline-block;
+position: relative;
+animation: rock-screen 2s ease-in-out infinite;
+}
+
+#rowboat1 {
+  height: 50px;
+  width: 50px;
+  position: relative;
+  bottom: 300px;
+  right: 90px;
+  padding: 30px;
+  transform: rotateX(40deg);
+  opacity: 0.7;
+  animation: rock-boat1 6s ease-in-out infinite;
+
+}
+#rowboat2 {
+  height: 50px;
+  width: 50px;
+  position: relative;
+  bottom: 300px;
+  right: 90px;
+  padding: 30px;
+  transform: rotateX(40deg);
+  opacity: 0.7;
+  animation: rock-boat2 12s ease-in-out infinite;
+}
+
+
+#rowboat3 {
+  height: 50px;
+  width: 50px;
+  position: relative;
+  bottom: 300px;
+  right: 60px;
+  padding: 30px;
+  transform: rotateX(40deg);
+  opacity: 0.7;
+  animation: rock-boat3 7s ease-in-out infinite;
+}
+
+#myname, #occupation {
+  font-family: 'Rock Salt', cursive;
+}
+
+#myname {
+  position: absolute;
+  top: 0px;
+  font-size: 80px;
+  left: 30px;
+}
+
+#occupation {
+  position: absolute;;
+  top: 220px;
+  left: 80px;
+  font-size: 30px;
+}
+
+.clickLink {
+  right: 340px;
+  position: relative;
+  bottom: 265px;
+  padding: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+/*
+----------
+PAGE 2
+----------
+*/
+
+#page2 {
+
+  background: #dba75e;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:center;
+  align-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  height: 1300px;
+}
+
+/*--------------------------*/
+
+
+
+.proj1Text {
+  width: 600px;
+  height: 300px;
+  text-align: center;
+  position: relative;
+  top: 50px;
+  font-size: 20px;
+  color: #3d2b13;
+}
+
+#p1B {
+  font-weight: 600;
+}
+
+#proj1PicDiv {
+  height:300px;
+  width: 500px;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+#proj1Pic {
+  height: 300px;
+  width: 380px;
+}
+
+#screen1 {
+  position: relative;
+  bottom: 277px;
+  left: 68px;
+  height: 190px;
+  width: 250px;
+}
+
+#arrow1 {
+  height: 60px;
+  width: 100px;
+  position: relative;
+  bottom: 220px;
+  left: 135px;
+}
+
+#arrow2 {
+  height: 60px;
+  width: 100px;
+  position: relative;
+  bottom: 220px;
+  right: 350px;
+}
+
+#arrow3 {
+  height: 60px;
+  width: 100px;
+  position: relative;
+  bottom: 220px;
+  left: 135px;
+}
+
+/*---------------------------*/
+
+.proj2Text {
+  width: 600px;
+  height: 300px;
+  text-align: center;
+  position: relative;
+  top: 50px;
+  font-size: 20px;
+  color: #3d2b13;
+}
+
+#proj2PicDiv {
+  height: 300px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 500px;
+  position: relative;
+  left: 70px;
+}
+
+#proj2Pic {
+  height: 300px;
+  width: 380px;
+}
+
+#screen2 {
+  position: relative;
+  bottom: 278px;
+  left: 68px;
+  height: 190px;
+  width: 250px;
+}
+
+/*---------------------------*/
+
+.proj3Text {
+  width: 600px;
+  height: 300px;
+  position: relative;
+  top: 50px;
+  text-align: center;
+  font-size: 20px;
+  color: #3d2b13;
+}
+
+
+#proj3PicDiv {
+  height: 300px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 500px;
+  position: relative;
+  top: 20px;
+}
+
+#proj3Pic {
+  height: 300px;
+  width: 380px;
+}
+
+#screen3 {
+  position: relative;
+  bottom: 278px;
+  left: 68px;
+  height: 190px;
+  width: 250px;
+}
+
+/*---------------------------*/
+.proj4Text {
+  width: 600px;
+  height: 300px;
+  text-align: center;
+  position: relative;
+  top: 100px;
+  font-size: 20px;
+  color:#3d2b13;
+}
+
+#proj4PicDiv {
+  height: 300px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 500px;
+  position: relative;
+  top: 50px;
+}
+
+#proj4Pic {
+  height: 300px;
+  width: 380px;
+
+}
+
+#screen4 {
+  position: relative;
+  left: 68px;
+  bottom: 278px;
+  height: 190px;
+  width: 250px;
+}
+
+
+
+
+/* -------------------------- */
+
+
+#page3 {
+  height: 768px;
+  background: #dba75e;
+  display:flex;
+  flex-direction: column;;
+  flex-wrap: wrap;
+  justify-content:flex-start;
+  align-content: center;;
+  align-items: center;
+  width: 100%;
+  height: 768px;
+  background: black;
+}
+
+
+#headshotDiv {
+  height: 300px;
+  weight: 250px;
+
+    /*left: 100px;*/
+}
+#headshot {
+  height: 300px;
+  weight: 250px;
+  position: relative;
+  border-radius: 50%;
+  top: 100px;
+  left: 210px;
+}
+#aboutTextDiv {
+  position: relative;
+  left: 240px;
+  top: 100px;
+  height: 210px;
+  width:500px;
+
+}
+#about {
+  color: white;
+}
+#emailMe {
+
+  color: white;
+  position: relative;
+  left: 210px;
+  top: 50px;
+}
+#button {
+  position: relative;
+  top: 100px;
+}
+#clickResume {
+  color:white;
+  font-weight: bold;
+  font-size: 20px;
+  text-shadow: -1px 0 green, 0 1px green, 1px 0 green, 0 -1px green;
+  position: relative;
+  left: 210px;
+  bottom: 20px;
+}
+#email {
+  text-align: center;
+  position: relative;
+  left: 210px;
+  top: 30px;
+  color: white;
+}
+.modalDialog {
+
+	position: relative;
+	top: 0;
+	right: 400px;
+	bottom: 0;
+	left: 0;
+	/*background: rgba(0,0,0,0.8);*/
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+
+#resume {
+  height: 700px;
+  width: 562px;
+  position: relative;
+  right: 5px;
+}
+
+.modalDialog:target {
+	opacity:1;
+	pointer-events: auto;
+}
+
+.modalDialog > div {
+	/*width: 400px;*/
+	position: relative;
+  top: 50px;
+  left: 250px;
+	/*margin: 10% auto;
+	padding: 5px 20px 13px 20px;
+	border-radius: 10px;
+	background: #fff;*/
+	background: -moz-linear-gradient(#fff, #999);
+	background: -webkit-linear-gradient(#fff, #999);
+	background: -o-linear-gradient(#fff, #999);
+}
+
+.close {
+  z-index: 1;
+	background: #606061;
+	color: #FFFFFF;
+	line-height: 25px;
+	position: absolute;
+	right: -12px;
+	text-align: center;
+	top: -10px;
+	width: 24px;
+	text-decoration: none;
+	font-weight: bold;
+	/*-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;*/
+	border-radius: 12px;
+	/*-moz-box-shadow: 1px 1px 3px #000;
+	-webkit-box-shadow: 1px 1px 3px #000;*/
+	box-shadow: 1px 1px 3px #000;
+}
+
+.close:hover { background: #00d9ff; }
+
+
+#resumeBox{
+  color: #5555dd;
+  position: relative;
+  text-align: center;
+  top: 250px;
+  right: 250px;
+  font-size: 30px;
+	-webkit-animation: flash linear 1s infinite;
+	animation: flash linear 6s infinite;
+}
+@-webkit-keyframes flash {
+	0% { opacity: 1; }
+	50% { opacity: .1; }
+	100% { opacity: 1; }
+}
+@keyframes flash {
+	0% { opacity: 1; }
+	50% { opacity: .1; }
+	100% { opacity: 1; }
+}
+/*--------------------------*/
+
+
+
+
+
+
+
+@keyframes rock-screen {
+    20%  { transform: rotate(0deg) transformY(-8px) transformX(-2px) }
+}
+
+@keyframes rock-boat1 {
+    20%  { transform: rotate(-3deg) translateY(-10px); }
+}
+@keyframes rock-boat2 {
+    22%  { transform: rotate(-5deg) translateY(-10px); }
+}
+@keyframes rock-boat3 {
+    18%  { transform: rotate(-4deg) translateY(-10px); }
+}
+
+#arrow1, #arrow2, #arrow3{
+	animation: pulse linear 1s infinite;
+}
+
+@keyframes pulse {
+	0% { width:100px; }
+	50% { width:110px; }
+	100% { width:100px; }
+}
