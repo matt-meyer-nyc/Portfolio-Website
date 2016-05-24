@@ -1,54 +1,41 @@
 @import url(https://fonts.googleapis.com/css?family=Rock+Salt);
 
+
+
 body {
-  background-color: black;
-}
-p1, p2, p3 {
-  z-index:1;
+  background: black;
 }
 
-
-
-/*
---------------
-PAGE 1
---------------
-*/
-
-#links {
-position: absolute;
-/*top: 100px;*/
-display:flex;
-flex-direction: row;
-flex-wrap: wrap;
-justify-content: center;
-align-content: flex-start;
-align-items: flex-start;
-height: 100vw;
-min-width: 940px;
-}
-
-ul {
-  list-style:none;
-}
-#navs {
-  padding: 80px;
-  text-decoration: none;
-}
-
-
+/*----------MAIN PAGE-------------------*/
 #page1 {
+  width:100%;
+  height: 62vw;
+  margin: 0 auto;
+  padding: 0vw;
 }
 
 #p1P {
-  height: 768px;
-  width: 100%;
+  max-width: 100%;
+  height: auto;
+  animation: pulseBG linear 12s infinite;
 }
 
-.boats {
-display: inline-block;
-position: relative;
-animation: rock-screen 2s ease-in-out infinite;
+#myname, #occupation {
+  font-family: 'Rock Salt', cursive;
+  color: white;
+}
+
+#myname {
+  font-size: 7vw;
+  position: absolute;
+  top: 0vw;
+}
+
+#occupation {
+  font-size: 2.5vw;
+  position: absolute;
+  top: 20vw;
+  left: 6vw;
 }
 
 #rowboat1 {
@@ -61,84 +48,60 @@ animation: rock-screen 2s ease-in-out infinite;
   transform: rotateX(40deg);
   opacity: 0.7;
   animation: rock-boat1 6s ease-in-out infinite;
-
 }
+
 #rowboat2 {
-  height: 50px;
-  width: 50px;
-  position: relative;
-  bottom: 300px;
-  right: 90px;
-  padding: 30px;
+  height: 5vw;
+  width: 5vw;
+  position: absolute;
+  top: 47vw;
+  left: 18vw;
   transform: rotateX(40deg);
   opacity: 0.7;
   animation: rock-boat2 12s ease-in-out infinite;
 }
 
-
 #rowboat3 {
-  height: 50px;
-  width: 50px;
-  position: relative;
-  bottom: 300px;
-  right: 60px;
-  padding: 30px;
+  height: 5vw;
+  width: 5vw;
+  position: absolute;
+  top: 47vw;
+  left: 30vw;
   transform: rotateX(40deg);
   opacity: 0.7;
   animation: rock-boat3 7s ease-in-out infinite;
 }
 
-#myname, #occupation {
-  font-family: 'Rock Salt', cursive;
-}
-
-#myname {
+#port {
   position: absolute;
-  top: 0px;
-  font-size: 80px;
-  left: 30px;
+  top: 50vw;
+  left: 15vw;
+  color: white;
 }
 
-#occupation {
-  position: absolute;;
-  top: 220px;
-  left: 80px;
-  font-size: 30px;
+#about {
+  position: absolute;
+  top: 50vw;
+  left: 30vw;
+  color: white;
 }
 
-.clickLink {
-  right: 340px;
-  position: relative;
-  bottom: 265px;
-  padding: 35px;
+#port, #about {
+  font-size: 1.2vw;
 }
 
 
 
 
 
+/*--------- PORTFOLIO PAGE-------------------*/
 
-
-
-
-
-/*
-----------
-PAGE 2
-----------
-*/
 
 #page2 {
-
   background: #dba75e;
-  display:flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content:center;
-  align-content: flex-start;
-  align-items: flex-start;
+  position: relative;
   width: 100%;
-  height: 1300px;
+  height: 105vw;
 }
 
 /*--------------------------*/
@@ -146,244 +109,230 @@ PAGE 2
 
 
 .proj1Text {
-  width: 600px;
-  height: 300px;
+  width: 50vw;
+  height: 25vw;
   text-align: center;
-  position: relative;
-  top: 50px;
-  font-size: 20px;
+  position: absolute;;
+  top: 7vw;
+  left: 0vw;
+  font-size: 1.5vw;
   color: #3d2b13;
-}
-
-#p1B {
-  font-weight: 600;
-}
-
-#proj1PicDiv {
-  height:300px;
-  width: 500px;
-  flex-grow: 0;
-  flex-shrink: 0;
+  margin: 0 auto;
 }
 
 #proj1Pic {
-  height: 300px;
-  width: 380px;
+  height: 25vw;
+  width: 31vw;
+  position: absolute;
+  top: 1vw;
+  right: 15vw;
 }
 
 #screen1 {
-  position: relative;
-  bottom: 277px;
-  left: 68px;
-  height: 190px;
-  width: 250px;
+  position: absolute;
+  top: 3.5vw;
+  right: 20vw;
+  height: 15.25vw;
+  width: 20.5vw;
 }
 
-#arrow1 {
-  height: 60px;
-  width: 100px;
-  position: relative;
-  bottom: 220px;
-  left: 135px;
-}
-
-#arrow2 {
-  height: 60px;
-  width: 100px;
-  position: relative;
-  bottom: 220px;
-  right: 350px;
-}
-
-#arrow3 {
-  height: 60px;
-  width: 100px;
-  position: relative;
-  bottom: 220px;
-  left: 135px;
-}
 
 /*---------------------------*/
 
 .proj2Text {
-  width: 600px;
-  height: 300px;
+  width: 50vw;
+  height: 25vw;
   text-align: center;
-  position: relative;
-  top: 50px;
-  font-size: 20px;
+  position: absolute;;
+  top: 31vw;
+  right: 5vw;
+  font-size: 1.5vw;
   color: #3d2b13;
+  margin: 0 auto;
 }
 
-#proj2PicDiv {
-  height: 300px;
-  flex-grow: 0;
-  flex-shrink: 0;
-  flex-basis: 500px;
-  position: relative;
-  left: 70px;
-}
+
 
 #proj2Pic {
-  height: 300px;
-  width: 380px;
+  height: 25vw;
+  width: 31vw;
+  position: absolute;
+  top: 25vw;
+  left: 10vw;
 }
 
 #screen2 {
-  position: relative;
-  bottom: 278px;
-  left: 68px;
-  height: 190px;
-  width: 250px;
+  position: absolute;
+  top: 27.75vw;
+  left: 15.5vw;
+  height: 15.25vw;
+  width: 20.5vw;
 }
 
 /*---------------------------*/
 
 .proj3Text {
-  width: 600px;
-  height: 300px;
-  position: relative;
-  top: 50px;
+  width: 50vw;
+  height: 25vw;
   text-align: center;
-  font-size: 20px;
+  position: absolute;;
+  top: 60vw;
+  left: 0vw;
+  font-size: 1.5vw;
   color: #3d2b13;
-}
-
-
-#proj3PicDiv {
-  height: 300px;
-  flex-grow: 0;
-  flex-shrink: 0;
-  flex-basis: 500px;
-  position: relative;
-  top: 20px;
+  margin: 0 auto;
 }
 
 #proj3Pic {
-  height: 300px;
-  width: 380px;
+  height: 25vw;
+  width: 31vw;
+  position: absolute;
+  top: 52vw;
+  right: 15vw;
 }
 
 #screen3 {
-  position: relative;
-  bottom: 278px;
-  left: 68px;
-  height: 190px;
-  width: 250px;
+  position: absolute;
+  top: 54.5vw;
+  right: 20vw;
+  height: 15.25vw;
+  width: 20.5vw;
 }
 
 /*---------------------------*/
 .proj4Text {
-  width: 600px;
-  height: 300px;
+  width: 50vw;
+  height: 25vw;
   text-align: center;
-  position: relative;
-  top: 100px;
-  font-size: 20px;
-  color:#3d2b13;
-}
-
-#proj4PicDiv {
-  height: 300px;
-  flex-grow: 0;
-  flex-shrink: 0;
-  flex-basis: 500px;
-  position: relative;
-  top: 50px;
+  position: absolute;;
+  top: 85vw;
+  right: 5vw;
+  font-size: 1.5vw;
+  color: #3d2b13;
+  margin: 0 auto;
 }
 
 #proj4Pic {
-  height: 300px;
-  width: 380px;
-
+  height: 25vw;
+  width: 31vw;
+  position: absolute;
+  top: 77vw;
+  left: 10vw;
 }
 
 #screen4 {
-  position: relative;
-  left: 68px;
-  bottom: 278px;
-  height: 190px;
-  width: 250px;
+  position: absolute;
+  top: 79.5vw;
+  left: 15.5vw;
+  height: 15.25vw;
+  width: 20.5vw;
+}
+
+/*----------ARROWS----------------------*/
+#arrow1 {
+  height: 5vw;
+  width: 8.33vw;
+  position: absolute;
+  top: 19vw;
+  right: 4vw;
+}
+
+#arrow2 {
+  height: 5vw;
+  width: 8.33vw;
+  position: absolute;
+  top: 43vw;
+  left: 2vw;
+}
+
+#arrow3 {
+  height: 5vw;
+  width: 8.33vw;
+  position: absolute;
+  top: 70vw;
+  right: 4vw;
+}
+
+#arrow1, #arrow2, #arrow3{
+	animation: pulse linear 1s infinite;
 }
 
 
-
-
-/* -------------------------- */
+/*----------ABOUT PAGE-------------------*/
 
 
 #page3 {
-  height: 768px;
-  background: #dba75e;
-  display:flex;
-  flex-direction: column;;
-  flex-wrap: wrap;
-  justify-content:flex-start;
-  align-content: center;;
-  align-items: center;
+  position: relative;
   width: 100%;
-  height: 768px;
-  background: black;
+  height: 62vw;
 }
 
-
-#headshotDiv {
-  height: 300px;
-  weight: 250px;
-
-    /*left: 100px;*/
-}
 #headshot {
-  height: 300px;
-  weight: 250px;
-  position: relative;
+  height: 25vw;
+  width: 25vw;
+  position: absolute;;
   border-radius: 50%;
-  top: 100px;
-  left: 210px;
+  top: 7vw;
+  left: 10vw;
 }
-#aboutTextDiv {
-  position: relative;
-  left: 240px;
-  top: 100px;
-  height: 210px;
-  width:500px;
 
-}
-#about {
+#aboutMe {
   color: white;
+  width: 42vw;
+  height: 15vw;
+  position: absolute;
+  top: 35vw;
+  left: 6vw;
+  text-align: left;
+  font-size: 1.5vw;
 }
+
 #emailMe {
-
   color: white;
-  position: relative;
-  left: 210px;
-  top: 50px;
+  position: absolute;
+  left: 6vw;
+  top: 53vw;
+  font-size: 1.5vw;
 }
+
+#email {
+  position: absolute;
+  color: yellow;
+  top: 56vw;
+  left: 6vw;
+  color: white;
+  font-size: 1.5vw;
+}
+
+#email:hover {
+  color: green;
+}
+
 #button {
-  position: relative;
-  top: 100px;
+  position: absolute;
+  top: 8.333vw;
 }
+
 #clickResume {
   color:white;
   font-weight: bold;
-  font-size: 20px;
-  text-shadow: -1px 0 green, 0 1px green, 1px 0 green, 0 -1px green;
-  position: relative;
-  left: 210px;
-  bottom: 20px;
+  font-size: 1.66vw;
+  position: absolute;
+  left: 19vw;
+  top: 24vw;
+  width: 100%;
+  height: 100%;
+  text-shadow: none;
 }
-#email {
-  text-align: center;
-  position: relative;
-  left: 210px;
-  top: 30px;
-  color: white;
-}
-.modalDialog {
 
-	position: relative;
+#clickResume:hover {
+  text-shadow: -.125vw 0 green, 0 .125vw green, .084vw 0 green, 0 -.125vw green;
+}
+
+.modalDialog {
+	position: absolute;
 	top: 0;
-	right: 400px;
+	right: 22vw;
 	bottom: 0;
 	left: 0;
 	/*background: rgba(0,0,0,0.8);*/
@@ -396,10 +345,10 @@ PAGE 2
 }
 
 #resume {
-  height: 700px;
-  width: 562px;
-  position: relative;
-  right: 5px;
+  height: 58.33vw;
+  width: 48.833vw;
+  position: absolute;
+  right: 1vw;
 }
 
 .modalDialog:target {
@@ -408,37 +357,26 @@ PAGE 2
 }
 
 .modalDialog > div {
-	/*width: 400px;*/
-	position: relative;
-  top: 50px;
-  left: 250px;
-	/*margin: 10% auto;
-	padding: 5px 20px 13px 20px;
-	border-radius: 10px;
-	background: #fff;*/
-	background: -moz-linear-gradient(#fff, #999);
-	background: -webkit-linear-gradient(#fff, #999);
-	background: -o-linear-gradient(#fff, #999);
+	position: absolute;
+  top: 4.166vw;
+  right: -22vw;
+	background: #fff;
 }
 
 .close {
   z-index: 1;
 	background: #606061;
 	color: #FFFFFF;
-	line-height: 25px;
+	line-height: 2.0833vw;
 	position: absolute;
-	right: -12px;
+	right: 1vw;
 	text-align: center;
-	top: -10px;
-	width: 24px;
+	top: 0vw;
+	width: 2vw;
 	text-decoration: none;
 	font-weight: bold;
-	/*-webkit-border-radius: 12px;
-	-moz-border-radius: 12px;*/
-	border-radius: 12px;
-	/*-moz-box-shadow: 1px 1px 3px #000;
-	-webkit-box-shadow: 1px 1px 3px #000;*/
-	box-shadow: 1px 1px 3px #000;
+	border-radius: 1vw;
+	box-shadow: .084vw .084vw .25vw #000;
 }
 
 .close:hover { background: #00d9ff; }
@@ -446,35 +384,31 @@ PAGE 2
 
 #resumeBox{
   color: #5555dd;
-  position: relative;
+  position: absolute;
   text-align: center;
-  top: 250px;
-  right: 250px;
-  font-size: 30px;
+  top: 17vw;
+  right: 10vw;
+  font-size: 2.5vw;
 	-webkit-animation: flash linear 1s infinite;
 	animation: flash linear 6s infinite;
 }
-@-webkit-keyframes flash {
-	0% { opacity: 1; }
-	50% { opacity: .1; }
-	100% { opacity: 1; }
+
+
+
+/*----------ANIMATION-------------------------*/
+@keyframes pulseBG {
+  0% { width:100%; }
+  50% { width:98%; }
+  100% { width:100%; }
 }
-@keyframes flash {
-	0% { opacity: 1; }
-	50% { opacity: .1; }
-	100% { opacity: 1; }
+
+
+@keyframes pulse {
+	0% { width:8.33vw; }
+	50% { width:9.16vw; }
+	100% { width:8.33vw; }
 }
-/*--------------------------*/
 
-
-
-
-
-
-
-@keyframes rock-screen {
-    20%  { transform: rotate(0deg) transformY(-8px) transformX(-2px) }
-}
 
 @keyframes rock-boat1 {
     20%  { transform: rotate(-3deg) translateY(-10px); }
@@ -486,12 +420,8 @@ PAGE 2
     18%  { transform: rotate(-4deg) translateY(-10px); }
 }
 
-#arrow1, #arrow2, #arrow3{
-	animation: pulse linear 1s infinite;
-}
-
-@keyframes pulse {
-	0% { width:100px; }
-	50% { width:110px; }
-	100% { width:100px; }
+@keyframes flash {
+	0% { opacity: 1; }
+	50% { opacity: .1; }
+	100% { opacity: 1; }
 }
