@@ -389,7 +389,6 @@ body {
   top: 17vw;
   right: 10vw;
   font-size: 2.5vw;
-	-webkit-animation: flash linear 1s infinite;
 	animation: flash linear 6s infinite;
 }
 
