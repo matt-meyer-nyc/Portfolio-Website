@@ -23,7 +23,10 @@ body {
 #myname, #occupation {
   font-family: 'Rock Salt', cursive;
   color: white;
+  text-shadow: .5vw .5vw darkblue;
 }
+
+
 
 #myname {
   font-size: 7vw;
@@ -36,6 +39,7 @@ body {
   position: absolute;
   top: 20vw;
   left: 6vw;
+  animation: fadein 12s;
 }
 
 #rowboat1 {
@@ -89,6 +93,43 @@ body {
 #port, #about {
   font-size: 1.2vw;
 }
+
+#fbIcon, #liIcon, #instIcon, #gpIcon {
+  height: 3vw;
+  width: 3vw;
+  z-index: 100;
+  animation:spin 20s linear infinite;
+
+}
+
+#fbIcon {
+  position: absolute;
+  top: 47vw;
+  right: 8vw;
+}
+
+#liIcon {
+  position: absolute;
+  top: 50vw;
+  right: 11vw;
+}
+
+#instIcon {
+  position: absolute;
+  top: 50vw;
+  right: 5vw;
+}
+
+#gpIcon {
+  position: absolute;
+  top: 53vw;
+  right: 8vw;
+}
+
+#socialMediaIcons {
+
+}
+
 
 
 
@@ -395,6 +436,15 @@ body {
 
 
 /*----------ANIMATION-------------------------*/
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@keyframes spin {
+  100% { transform: rotate(360deg); }
+}
+
 @keyframes pulseBG {
   0% { width:100%; }
   50% { width:98%; }
