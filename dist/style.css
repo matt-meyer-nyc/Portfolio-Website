@@ -2,7 +2,7 @@
 /*@import url(http://db.onlinewebfonts.com/c/cf984f65c2e069f0eed597bb0cee542d?family=HTNeonW01-Regular);*/
 @font-face {
 font-family: 'Neon';
-src: url('NeonCopy.ttf');
+src: url('/NeonCopy.ttf');
 }
 
 
@@ -21,7 +21,7 @@ body {
   right: 5%;
 }
 
-#chevronarrow1, #chevronarrow2, #chevronarrow3  {
+#chevronarrow1, #chevronarrow2, #chevronarrow3 {
   height: 3vw;
   width: 3vw;
   position: absolute;
@@ -31,7 +31,19 @@ body {
   color: purple;
 }
 
-#chevronarrow1:hover, #chevronarrow2:hover, #chevronarrow3:hover {
+#chevronarrow4  {
+  height: 3vw;
+  width: 3vw;
+  position: absolute;
+  top: 2vw;
+  right: 5%;
+  opacity: .8;
+  background-color: white;
+  z-index: 80;
+  border-radius: 100%;
+}
+
+#chevronarrow1:hover, #chevronarrow2:hover, #chevronarrow3:hover, #chevronarrow4:hover {
   background: linear-gradient(to right, yellow , green);
   border-radius: 100%;
 }
@@ -709,14 +721,26 @@ animation: rock-lifering 7s ease-in-out infinite;
 
 /*-----------------PAGE 5-------------------------*/
 #page5 {
+  position: relative;
+  display: none;
   height: 58vw;
-  width: 100;
-  border: 2px solid gold;
+  width: 100%;
+  border: 2vw solid linear-gradient(to right, yellow , green);
 }
 
 #coverPhoto {
   height: 99%;
   width: auto;
+}
+
+#bioCont {
+  color: white;
+  font-family: cursive;
+  position: absolute;
+  height: 44vw;
+  width: 37vw;
+  top: 9vw;
+  right: 2%;
 }
 
 
