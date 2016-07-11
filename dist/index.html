@@ -4,45 +4,71 @@
     <meta charset="utf-8">
     <meta name=”viewport” content=”initial-scale=1, width=device-width“>
     <title></title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="app/style.css">
   </head>
   <body>
     <div id="page1">
       <img id="p1P" src="https://s32.postimg.org/kaehtml11/updated_Portfolio_BGPic.jpg">
-       <p id="myname">Matt Meyer<p>
+     <div id='myNameCont'>
+       <p id="myname">Matt Meyer</p>
+     </div>
+     <div id="occCont">
        <p id="occupation">Fullstack Web Developer</p>
-         <div id="nav">
-          <ul id="links">
-           <li><a class="p1" href="#Recent Projealt=""cts">
-            <!-- <img id='rowboat1' src="http://s32.postimg.org/wx9gavy4l/rowboat_burned.png" /></a></li> -->
-           <li><a class="p2" href="#portfolio">
-            <img id='rowboat2' src="http://s32.postimg.org/wx9gavy4l/rowboat_burned.png" /></a></li>
-           <li><a class="p3" href="#contact">
-            <img id='rowboat3' src="http://s32.postimg.org/wx9gavy4l/rowboat_burned.png" /></a></li>
-           </br>
-           <li><p id="port"><strong>PORTFOLIO</strong></p></li>
-           <li><p id="about"><strong>ABOUT</strong></p></li>
-          </ul>
+     </div>
+         <!-- <div id="nav"> -->
+          <!-- <ul id="links"> -->
+    <div id="portCont">
+      <a  class="p2" href="#portfolio">
+      <img id='rowboat2' src="http://s32.postimg.org/wx9gavy4l/rowboat_burned.png" /></a>
+    </div>
+    <div id="contactCont">
+      <a  class="p3" href="#contact">
+      <img id='rowboat3' src="http://s32.postimg.org/wx9gavy4l/rowboat_burned.png" /></a>
+    </div>
+    <div id="skillsCont">
+      <a  class="pS" href"#skills">
+      <img id='rowboat4' src="http://s32.postimg.org/wx9gavy4l/rowboat_burned.png" /></a>
+    </div>
+           <!-- </br> -->
+      <p id="port"><strong>PORTFOLIO</strong></p>
+      <p id="about"><strong>ABOUT</strong></p>
+      <p id="skills"><strong>SKILLS</strong></p>
+          <!-- </ul> -->
          </div>
-         <div id="socialMedia">
-          <ul id="socialMediaIcons">
-           <li><a class="facebook" href="https://www.facebook.com/matt.meyer.50115/" target="_blank">
-            <img id='fbIcon' src="https://s31.postimg.org/6palczgsr/facebook_round.png" /></a></li>
-           <li><a class="linkedin" href="https://www.linkedin.com/in/mattmeyernyc" target="_blank">
-            <img id='liIcon' src="https://s31.postimg.org/6cjlq2eob/linkedin_round.png" /></a></li>
-           <li><a class="instagram" href="https://www.instagram.com/mattjacobnyc/" target="_blank">
-            <img id='instIcon' src="https://s31.postimg.org/dk6fd6urf/instagram_round.png" /></a></li>
-           <li><a class="googlePlus" href="https://plus.google.com/u/0/110044176695752393549" target="_blank">
-            <img id='gpIcon' src="https://s31.postimg.org/mey2w7pcr/google_round.png" /></a></li>
-          </ul>
+         <!-- <div id="socialMedia"> -->
+          <!-- <ul id="socialMediaIcons"> -->
+           <div id="fbCont">
+             <a class="facebook" href="https://www.facebook.com/matt.meyer.50115/" target="_blank">
+            <img id='fbIcon' src="https://s31.postimg.org/6palczgsr/facebook_round.png" />
+           </a>
          </div>
-
+         <div id="liCont">
+           <a  class="linkedin" href="https://www.linkedin.com/in/mattmeyernyc" target="_blank">
+            <img id='liIcon' src="https://s31.postimg.org/6cjlq2eob/linkedin_round.png" /></a>
+          </div>
+          <div id="instCont">
+           <a  class="instagram" href="https://www.instagram.com/mattjacobnyc/" target="_blank">
+            <img id='instIcon' src="https://s31.postimg.org/dk6fd6urf/instagram_round.png" /></a>
+          </div>
+          <div id="gpCont">
+           <a  class="googlePlus" href="https://plus.google.com/u/0/110044176695752393549" target="_blank">
+            <img id='gpIcon' src="https://s31.postimg.org/mey2w7pcr/google_round.png" /></a>
+          </div>
+          <div id="gitCont">
+           <a  class="github" href="https://github.com/matt-meyer-nyc" target="_blank">
+            <img id='gitIcon' src="https://s32.postimg.org/7d4qbcewl/githublogo.png" /></a>
+          </div>
+          <!-- </ul> -->
+         <!-- </div> -->
+       <h4 id="letsConnect">Let's Connect!</h4>
     </div>
 
-<!--- PAGE 2 -->
-
-    <div id="page2">
-      <a id="portfolio" class="smooth"></a>
+<!--- PAGE 2 (portfolio) -->
+    <div id="page2" class='page2'>
+     <img id="p2P" src="https://s31.postimg.org/75cgd8p3v/sayagata_400px.png" />
+      <div id="chevron">
+        <img src="https://s31.postimg.org/8ek8lgeh7/arrow_Chevron_In_Circle.png" id="chevronarrow1" />
+      </div>
        <div class="proj1Text">
         <p id="proj1"><strong>"Chaminade Bakery"</strong><br/>Website mock-up I was hired to create for a delicious bakery in </br>Long Island</p>
         <p id="proj1Tech">utilizes: <i>React, Ruby/Rails. Node-Sass, ES6</i>
@@ -77,31 +103,83 @@
     </div>
 
 
-    <!-- PAGE 3 -->
+    <!-- PAGE 3 (about) -->
     <div id="page3">
-     <a id="contact" class="smooth"></a>
-    <div id="aboutPicDiv">
-     <img id="headshot" src="http://s20.postimg.org/jzmoxreal/Popped_Color_Headshot.jpg" />
-    </div>
-    <div id="aboutTextDiv">
-     <p id="aboutMe">What do you get when you cross a lifetime's passion for music, a lush professional background and unparalleled web development training? <br/>If your answer is this guy in a nutshell, well...call me a legume. <br/> At heart, I love to create and collaborate. Heroes of mine range from Neil deGrasse Tyson to Tim Ferriss, with the common thread being my fascination with how passion combines with innovation and optimization. My fascination grew so huge that I couldn't sit on the sidelines anymore - I had to throw my hat in the ring.</p>
-    </div>
-    <div id="button"><a href="#openModal"><p id='clickResume'>Resume</p></a></div>
-      <p id="emailMe"><i>Please email me if you'd like a .pdf resume for your records</i></p><br/>
-      <p><strong><a id='email' href="mailto:mattjacobnyc@gmail.com" target="_blank">mattjacobnyc@gmail.com<a></strong></p>
-    <div id="openModal" class="modalDialog">
-     <div>
-      <a href="#close" title="Close" class="close">X</a>
-      <div id="resumeDiv"><img id="resume" src="http://s20.postimg.org/f6qgepa71/Matt_Jacob_Meyer_10_page_0.jpg" /></div>
+     <img id="p3P" src="https://s31.postimg.org/sbp3aknd7/leather2.jpg" />
+     <div id="chevron">
+       <img src="https://s31.postimg.org/8ek8lgeh7/arrow_Chevron_In_Circle.png" id="chevronarrow2" />
+      </div>
+      <div id="aboutPicDiv">
+       <img src="https://s31.postimg.org/hpl3l4yqj/lifering_Purple.png" id="purplelifering"><img id="headshot" src="http://s20.postimg.org/jzmoxreal/Popped_Color_Headshot.jpg" /></img>
+      </div>
+      <div id="aboutTextDiv">
+       <p id="aboutMe">What do you get when you cross a lifetime's passion for music, a lush professional background and unparalleled web development training? <br/>If your answer is this guy in a nutshell, well...call me a legume. <br/> At heart, I love to create and collaborate. Heroes of mine range from Neil deGrasse Tyson to Tim Ferriss, with the common thread being my fascination with how passion combines with innovation and optimization. My fascination grew so huge that I couldn't sit on the sidelines anymore - I had to throw my hat in the ring.</p>
+      </div>
+      <div id="button"><a href="#openModal"><p id='clickResume'>Resume</p></a></div>
+        <p id="emailMe"><i>I'd love to hear from you!</i></p><br/>
+        <p><strong><a id='email' href="mailto:mattjacobnyc@gmail.com" target="_blank">mattjacobnyc@gmail.com<a></strong></p>
+      <div id="openModal" class="modalDialog">
+       <div>
+        <a href="#close" title="Close" class="close">X</a>
+        <div id="resumeDiv"><img id="resume" src="http://s20.postimg.org/f6qgepa71/Matt_Jacob_Meyer_10_page_0.jpg" /></div>
+       </div>
+      </div>
+       <div id='resumeBox'><strong>"Compassion is an action word <br/>with no boundaries."</strong></br>-Prince</div>
+      </div>
      </div>
-    </div>
-     <div id='resumeBox'><strong>"Compassion is an action word <br/>with no boundaries."</strong></br>-Prince</div>
+
+   <!-- PAGE 4 (skills)-->
+   <div id="page4">
+     <img id="p4P" src="https://s31.postimg.org/gyi7xnrtn/background_Patternfor_Skills.jpg">
+     <div id="chevron">
+       <img src="https://s31.postimg.org/8ek8lgeh7/arrow_Chevron_In_Circle.png" id="chevronarrow3" />
+     </div>
+    <div="p4Container">
+    <h1 id="fullstack">Explore My Skills</h1>
+     <img id='rowboat4A' src="http://s32.postimg.org/wx9gavy4l/rowboat_burned.png" />
+     <img id='lifering' src="https://s31.postimg.org/98lla7u1n/lifering_Red_Blurred.png" />
+     <img id='lifering2' src="https://s31.postimg.org/98lla7u1n/lifering_Red_Blurred.png" />
+     <h3 id="music">My Lifeline...</br>Music!</h3>
+     <h3 id="frontend">Front-end</h3>
+     <h3 id="backend">Back-end</h3>
+     <img id="paddle1" src="https://s31.postimg.org/5gx9s64cr/boat_Paddle.png">
+       <h2 id="frontEndList">
+           Javascript,
+           ES6,
+           HTML5,</br>
+           CSS3,
+           Node.JS,
+           JQuery,<br>
+           React, JSON, Node-Sass<br>
+           API Consumption
+       </h2>
+     </img>
+     <img id="paddle2" src="https://s31.postimg.org/5gx9s64cr/boat_Paddle.png">
+       <h2 id="backEndList">
+        Ruby</br>
+        Rails</br>
+        Express</br>
+        MongoDB</br>
+        SQLite</br>
+        Postgres</br>
+        Rspec
+       </h2>
+     </img>
     </div>
    </div>
 
+   <div id="page5">
+     <img id="coverPhoto" src="https://s32.postimg.org/mgsv8ld9h/Cover_Photo.jpg"/>
+     <audio id="raindbowsWild">
+       <a  id="mp3" href="http://picosong.com/tsiP/" type="audio/mpeg"></a>
+     </audio>
+   </div>
 
-  <script src="bundle.js"></script><script src="bundle.js"></script></body>
+
+
+
+  <script src="bundle.js"></script></body>
   <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-  <script type="text/javascript" src="index.js"></script>
+  <script type="text/javascript" src="app/index.js"></script>
 
 </html>
