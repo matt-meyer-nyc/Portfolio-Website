@@ -1,835 +1,199 @@
-@import url(https://fonts.googleapis.com/css?family=Rock+Salt);
-/*@import url(http://db.onlinewebfonts.com/c/cf984f65c2e069f0eed597bb0cee542d?family=HTNeonW01-Regular);*/
-@font-face {
-font-family: 'Neon';
-src: url('/NeonCopy.ttf');
-}
-
-
-
-body {
-  background-color: black;
-}
-
-#chevron {
-  transform: rotateX(180deg);
-  z-index: 100;
-  height: 3vw;
-  width: 3vw;
-  position: absolute;
-  top: 4vw;
-  right: 5%;
-}
-
-#chevronarrow1, #chevronarrow2, #chevronarrow3 {
-  height: 3vw;
-  width: 3vw;
-  position: absolute;
-  top: 2vw;
-  right: 5%;
-  opacity: .8;
-  color: purple;
-}
-
-#chevronarrow4  {
-  height: 3vw;
-  width: 3vw;
-  position: absolute;
-  top: 2vw;
-  right: 5%;
-  opacity: .8;
-  background-color: white;
-  z-index: 80;
-  border-radius: 100%;
-}
-
-#chevronarrow1:hover, #chevronarrow2:hover, #chevronarrow3:hover, #chevronarrow4:hover {
-  background: linear-gradient(to right, yellow , green);
-  border-radius: 100%;
-}
-
-/*----------MAIN PAGE-------------------*/
-#page1 {
-  width:100%;
-  height: 58vw;
-}
-
-#p1P {
-  width: 100%;
-  height: 99%;
-  animation: pulseBG linear 12s infinite;
-}
-
-#myname, #occupation {
-  font-family: 'Rock Salt', cursive;
-  color: white;
-  text-shadow: .5vw .5vw darkblue;
-}
-
-#myNameCont {
-  position: absolute;
-  top: 0vw;
-}
-
-#myname {
-  font-size: 7vw;
-}
-
-#occCont {
-  position: absolute;
-  top: 20vw;
-  left: 6vw;
-}
-
-#occupation {
-  font-size: 2.5vw;
-  animation: fadein 12s;
-}
-
-#portCont {
-  position: absolute;
-  top: 47vw;
-  left: 18vw;
-}
-#rowboat2 {
-  height: 5vw;
-  width: 5vw;
-  position: absolute;
-  transform: rotateX(40deg);
-  opacity: 0.7;
-  animation: rock-boat2 12s ease-in-out infinite;
-}
-
-#contactCont {
-  position: absolute;
-  top: 47vw;
-  left: 30vw;
-}
-
-#rowboat3 {
-  height: 5vw;
-  width: 5vw;
-  transform: rotateX(40deg);
-  opacity: 0.7;
-  animation: rock-boat3 7s ease-in-out infinite;
-}
-
-#skillsCont {
-  position: absolute;
-  top: 47vw;
-  left: 42vw;
-}
-
-#rowboat4 {
-  height: 5vw;
-  width: 5vw;
-  transform: rotateX(40deg);
-  opacity: 0.7;
-  animation: rock-boat4 7s ease-in-out infinite;
-}
-
-#port {
-  position: absolute;
-  top: 50vw;
-  left: 14vw;
-  color: white;
-}
-
-#about {
-  position: absolute;
-  top: 50vw;
-  left: 30vw;
-  color: white;
-}
-
-#skills {
-  position: absolute;
-  top: 50vw;
-  left: 42vw;
-  color: white;
-}
-
-#port, #about, #skills {
-  font-size: 1.2vw;
-  font-family: 'Rock Salt', cursive;
-  text-shadow: .3vw .3vw darkblue;
-}
-
-
-#fbIcon, #liIcon, #instIcon, #gpIcon, #gitIcon {
-  height: 3vw;
-  width: 3vw;
-  z-index: 100;
-  animation:spin 20s linear infinite;
-}
-
-#fbIcon:hover, #liIcon:hover, #instIcon:hover, #gpIcon:hover, #gitIcon:hover, #rowboat2:hover, #rowboat3:hover, #rowboat4:hover {
-  transform: scale(1.4);
-}
-
-#fbCont {
-  position: absolute;
-  top: 43vw;
-  right: 18vw;
-  z-index: 2;
-}
-/*
-#fbIcon {
-  position: absolute;
-  top: 51vw;
-  right: 18vw;
-}*/
-
-#liCont {
-  position: absolute;
-  top: 47vw;
-  right: 22vw;
-}
-
-#instCont {
-  position: absolute;
-  top: 47vw;
-  right: 14vw;
-}
-
-#gpCont {
-  position: absolute;
-  top: 51vw;
-  right: 18vw;
-}
-
-#gitCont {
-  position: absolute;
-  top: 47vw;
-  right: 18vw;
-  background: white;
-  border-radius: 100%;
-}
-
-#letsConnect {
-  font-family: 'Neon', sans-serif;;
-  font-size: 4vw;
-  color: #a77fe3;
-  position: absolute;
-  top: 32vw;
-  right: 8vw;
-  text-shadow: .1vw .1vw white;
-  animation: shimmer 1s infinite linear;
-}
-
-
-/*--------- PORTFOLIO PAGE-------------------*/
-
-
-#page2 {
-  /*background-image: url(https://s31.postimg.org/75cgd8p3v/sayagata_400px.png);*/
-  position: relative;
-  width: 100%;
-  height: 105vw;
-}
-
-.page2 {
-    visibility: hidden;
-    display: none;
-    outline: 1vw dotted #7c63e0;
-    box-shadow: 0 0 0 1vw #39339c;
-    z-index: 2;
-    animation: 2s animateBorder infinite;
-}
-
-#p2P {
-  width: 100%;
-  height: 105vw;
-}
-
-
-
-/*--------------------------*/
-
-
-
-.proj1Text {
-  width: 50vw;
-  height: 25vw;
-  text-align: center;
-  position: absolute;;
-  top: 7vw;
-  left: 0vw;
-  font-size: 1.5vw;
-  color: #3d2b13;
-  margin: 0 auto;
-}
-
-#proj1Pic {
-  height: 25vw;
-  width: 31vw;
-  position: absolute;
-  top: 1vw;
-  right: 15vw;
-}
-
-#screen1 {
-  position: absolute;
-  top: 3.5vw;
-  right: 20vw;
-  height: 15.25vw;
-  width: 20.5vw;
-}
-
-
-/*---------------------------*/
-
-.proj2Text {
-  width: 50vw;
-  height: 25vw;
-  text-align: center;
-  position: absolute;;
-  top: 31vw;
-  right: 5vw;
-  font-size: 1.5vw;
-  color: #3d2b13;
-  margin: 0 auto;
-}
-
-
-
-#proj2Pic {
-  height: 25vw;
-  width: 31vw;
-  position: absolute;
-  top: 25vw;
-  left: 10vw;
-}
-
-#screen2 {
-  position: absolute;
-  top: 27.75vw;
-  left: 15.5vw;
-  height: 15.25vw;
-  width: 20.5vw;
-}
-
-/*---------------------------*/
-
-.proj3Text {
-  width: 50vw;
-  height: 25vw;
-  text-align: center;
-  position: absolute;;
-  top: 60vw;
-  left: 0vw;
-  font-size: 1.5vw;
-  color: #3d2b13;
-  margin: 0 auto;
-}
-
-#proj3Pic {
-  height: 25vw;
-  width: 31vw;
-  position: absolute;
-  top: 52vw;
-  right: 15vw;
-}
-
-#screen3 {
-  position: absolute;
-  top: 54.5vw;
-  right: 20vw;
-  height: 15.25vw;
-  width: 20.5vw;
-}
-
-/*---------------------------*/
-.proj4Text {
-  width: 50vw;
-  height: 25vw;
-  text-align: center;
-  position: absolute;;
-  top: 85vw;
-  right: 5vw;
-  font-size: 1.5vw;
-  color: #3d2b13;
-  margin: 0 auto;
-}
-
-#proj4Pic {
-  height: 25vw;
-  width: 31vw;
-  position: absolute;
-  top: 77vw;
-  left: 10vw;
-}
-
-#screen4 {
-  position: absolute;
-  top: 79.5vw;
-  left: 15.5vw;
-  height: 15.25vw;
-  width: 20.5vw;
-}
-
-/*----------ARROWS----------------------*/
-#arrow1 {
-  height: 5vw;
-  width: 8.33vw;
-  position: absolute;
-  top: 19vw;
-  right: 4vw;
-}
-
-#arrow2 {
-  height: 5vw;
-  width: 8.33vw;
-  position: absolute;
-  top: 43vw;
-  left: 2vw;
-}
-
-#arrow3 {
-  height: 5vw;
-  width: 8.33vw;
-  position: absolute;
-  top: 70vw;
-  right: 4vw;
-}
-
-#arrow1, #arrow2, #arrow3{
-	animation: pulse linear 1s infinite;
-}
-
-
-/*----------ABOUT PAGE-------------------*/
-
-
-#page3 {
-  position: relative;
-  width: 100%;
-  height: 62vw;
-  display:none;
-}
-
-#p3P {
-  width: 100%;
-  height: 62vw;
-}
-
-#purplelifering {
-  height: 50vw;
-  width: auto;
-  position: absolute;;
-  border-radius: 50%;
-  top: -6.6vw;
-  left: -3vw;
-  z-index:10;
-  opacity: .8;
-}
-
-#headshot {
-  height: 25vw;
-  width: 25vw;
-  position: absolute;;
-  border-radius: 50%;
-  top: 7vw;
-  left: 10vw;
-}
-
-#aboutMe {
-  color: #2a2442;
-  width: 60vw;
-  height: 15vw;
-  position: absolute;
-  top: 35vw;
-  left: 6vw;
-  text-align: left;
-  font-size: 2vw;
-  z-index: 11;
-}
-
-#emailMe {
-  color: #2a2442;
-  position: absolute;
-  left: 6vw;
-  top: 53vw;
-  font-size: 2.5vw;
-}
-
-#email {
-  position: absolute;
-  color: yellow;
-  top: 58vw;
-  left: 6vw;
-  color: #2a2442;
-  font-size: 2.5vw;
-}
-
-#email:hover {
-  color: green;
-}
-
-#button {
-  position: absolute;
-  top: 8.333vw;
-}
-
-#clickResume {
-  z-index: 12;
-  color: #2a2442;
-  font-weight: bold;
-  font-size: 2.5vw;
-  position: absolute;
-  left: 19vw;
-  top: 22vw;
-  width: 100%;
-  height: 100%;
-  text-shadow: none;
-}
-
-#clickResume:hover {
-  text-shadow: -.125vw 0 green, 0 .125vw green, .084vw 0 green, 0 -.125vw green;
-}
-
-.modalDialog {
-	position: absolute;
-	top: 0;
-	right: 22vw;
-	bottom: 0;
-	left: 0;
-	/*background: rgba(0,0,0,0.8);*/
-	z-index: 99999;
-	opacity:0;
-	-webkit-transition: opacity 400ms ease-in;
-	-moz-transition: opacity 400ms ease-in;
-	transition: opacity 400ms ease-in;
-	pointer-events: none;
-}
-
-#resume {
-  height: 58.33vw;
-  width: 48.833vw;
-  position: absolute;
-  right: 1vw;
-}
-
-.modalDialog:target {
-	opacity:1;
-	pointer-events: auto;
-}
-
-.modalDialog > div {
-	position: absolute;
-  top: 4.166vw;
-  right: -22vw;
-	background: #fff;
-}
-
-.close {
-  z-index: 1;
-	background: #606061;
-	color: #FFFFFF;
-	line-height: 2.0833vw;
-	position: absolute;
-	right: 1vw;
-	text-align: center;
-	top: 0vw;
-	width: 2vw;
-	text-decoration: none;
-	font-weight: bold;
-	border-radius: 1vw;
-	box-shadow: .084vw .084vw .25vw #000;
-}
-
-.close:hover { background: #00d9ff; }
-
-
-#resumeBox{
-  color: #5555dd;
-  position: absolute;
-  text-align: center;
-  top: 17vw;
-  right: 10vw;
-  font-size: 2.5vw;
-	animation: flash linear 6s infinite;
-}
-
-
-
-/*--------- SKILLS PAGE-------------------*/
-#page4 {
-  position: relative;
-  height: 62vw;
-  width: 100%;
-  display: none;
-}
-
-#p4P {
-  height: 62vw;
-  width: 100%
-}
-
-#fullstack {
-  position: absolute;
-  top: 0vw;
-  left: 40vw;
-  font-family: "HTNeonW01-Regular";
-  font-size: 5vw;
-  color: white;
-  animation: shimmerFullstack 1s infinite linear;
-  text-shadow: .3vw .3vw #39339c;
-
-}
-
-#rowboat4A {
-  position: absolute;
-  top: 10vw;
-  left: 10vw;
-  height: 50vw;
-  width: auto;
-  animation: rock-boat4 7s ease-in-out infinite;
-}
-
-#lifering {
-position: absolute;
-top: 27vw;
-left: 30vw;
-height: 12vw;
-width: auto;
-animation: rock-lifering 7s ease-in-out infinite;
-}
-
-#lifering2 {
-  display:none;
-  position: absolute;
-  top: 8vw;
-  left: 66vw;
-  height: 24vw;
-  width: auto;
-}
-
-#lifering:hover {
-  -webkit-filter:drop-shadow(5px 5px 10px green);
-  -moz-filter:drop-shadow(5px 5px 10px green);
-  -ms-filter:drop-shadow(5px 5px 10px green);
-  -o-filter:drop-shadow(5px 5px 10px green);
-}
-
-#music {
-  font-family: "HTNeonW01-Regular";
-  font-size: 3vw;
-  position: absolute;
-  top: 14vw;
-  left: 71vw;
-  color: #39339c;
-  text-shadow: .2vw .2vw white;
-  display: none;
-  z-index: 80;
-  text-align: center;
-  text-shadow: .2vw .2vw #101a19;
-  animation: shimmerMusic 1s infinite linear;
-  }
-
-#frontend {
-  font-family: "HTNeonW01-Regular";
-  position: absolute;
-  top: 28vw;
-  left: 58vw;
-  font-size: 5vw;
-  color: #dbceba;
-  text-shadow: .2vw .2vw #101a19;
-  z-index: 11;
-  animation: shimmerFrontEnd 1s infinite linear;
-}
-
-#frontend:hover {
-  font-family: "HTNeonW01-Regular";
-  position: absolute;
-  top: 28vw;
-  left: 56vw;
-  font-size: 5vw;
-  color: lime;
-  text-shadow: .2vw .2vw #101a19;
-  z-index: 11;
-  animation: shimmerFrontEnd 1s infinite linear;
-}
-
-#backend {
-  font-family: "HTNeonW01-Regular";
-  position: absolute;
-  top: 9vw;
-  left: 17vw;
-  font-size: 4vw;
-  color: #dbceba;
-  text-shadow: .2vw .2vw #101a19;
-  animation: shimmerBackEnd 1s infinite linear;
-}
-
-#backend:hover {
-  font-family: "HTNeonW01-Regular";
-  position: absolute;
-  top: 9vw;
-  left: 17vw;
-  font-size: 4vw;
-  color: lime;
-  text-shadow: .2vw .2vw #101a19;
-  animation: shimmerBackEnd 1s infinite linear;
-}
-
-#paddle1 {
-  display: none;
-  height: 10vw;
-  width: 35vw;
-  position: absolute;
-  top: 39vw;
-  left: 20vw;
-  z-index: 50;
-  transform: rotate(130deg);
-}
-
-#paddle2 {
-  display: none;
-  height: 10vw;
-  width: 35vw;
-  position: absolute;;
-  top: 32vw;
-  left: 0vw;
-  z-index: 50;
-  transform:rotate(130deg);
-}
-
-#frontEndList {
-  font-family: "HTNeonW01-Regular";
-  font-size: 3vw;
-  z-index: 60;
-  display: none;
-  position: absolute;
-  top: 37vw;
-  left: 46vw;
-  color: white;
-  text-shadow: .2vw .2vw #39339c;
-}
-
-#backEndList {
-  font-family: "HTNeonW01-Regular";
-  font-size: 3vw;
-  z-index: 60;
-  display: none;
-  position: absolute;
-  top: 25vw;
-  left: 17vw;
-  color: #39339c;
-  text-shadow: .2vw .2vw white;
-}
-
-/*-----------------PAGE 5-------------------------*/
-#page5 {
-  position: relative;
-  display: none;
-  height: 58vw;
-  width: 100%;
-  border: 2vw solid linear-gradient(to right, yellow , green);
-}
-
-#coverPhoto {
-  height: 99%;
-  width: auto;
-}
-
-#bioCont {
-  color: white;
-  font-family: cursive;
-  position: absolute;
-  height: 44vw;
-  width: 37vw;
-  top: 9vw;
-  right: 2%;
-}
-
-
-
-
-/*----------ANIMATION-------------------------*/
-@keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
-
-@keyframes spin {
-  100% { transform: rotate(360deg); }
-}
-
-@keyframes shimmer {
-  from { text-shadow: 0vw 0vw 3vw #F00; }
-  50% { text-shadow: 0vw 0vw 1vw #F00; }
-  to { text-shadow: 0vw 0vw 3vw #F00; }
-}
-
-@keyframes animateBorder {
-  to {
-    outline-color: #39339c;
-    box-shadow: 0 0 0 1vw white;
-  }
-}
-
-@keyframes pulseBG {
-  0% { width:100%; }
-  50% { width:98%; }
-  100% { width:100%; }
-}
-
-
-@keyframes pulse {
-	0% { width:8.33vw; }
-	50% { width:9.16vw; }
-	100% { width:8.33vw; }
-}
-
-
-@keyframes rock-boat2 {
-    22%  { transform: rotate(-5deg) translateY(-10px); }
-}
-@keyframes rock-boat3 {
-    18%  { transform: rotate(-4deg) translateY(-10px); }
-}
-
-@keyframes rock-boat4 {
-    20%  { transform: rotate(-4deg) translateY(-10px); }
-}
-
-@keyframes rock-boatA {
-    22%  { transform: rotate(-4deg) translateY(-10px); }
-}
-@keyframes rock-lifering {
-    22%  { transform: rotate(-4deg) translateY(-10px); }
-}
-
-@keyframes shimmerFullstack {
-  from { text-shadow: 0vw 0vw 3vw #a77fe3; }
-  50% { text-shadow: 0vw 0vw 1vw #a77fe3; }
-  to { text-shadow: 0vw 0vw 3vw #a77fe3; }
-}
-
-@keyframes shimmerFrontEnd {
-  from { text-shadow: 0vw 0vw 3vw white; }
-  50% { text-shadow: 0vw 0vw 1vw white; }
-  to { text-shadow: 0vw 0vw 3vw white; }
-}
-
-@keyframes shimmerBackEnd {
-  from { text-shadow: 0vw 0vw 3vw #F2EBF9; }
-  50% { text-shadow: 0vw 0vw 1vw #F2EBF9; }
-  to { text-shadow: 0vw 0vw 3vw #F2EBF9; }
-}
-@keyframes shimmerMusic {
-  from { text-shadow: 0vw 0vw 3vw #F4FF2D; }
-  50% { text-shadow: 0vw 0vw 1vw #F4FF2D; }
-  to { text-shadow: 0vw 0vw 3vw #F4FF2D; }
-}
-
-
-
-
-
-@keyframes flash {
-	0% { opacity: 1; }
-	50% { opacity: .1; }
-	100% { opacity: 1; }
-}
+window.onload = function () {
+console.log("giddyup");
+
+/*--------write 'Matt Meyer' function -------------*/
+var text = $('#myname').text();
+
+var length = text.length;
+var timeOut;
+var character = 0;
+
+  (function typeWriter() {
+      timeOut = setTimeout(function() {
+          character++;
+          var type = text.substring(0, character);
+          $('#myname').text(type);
+          typeWriter();
+
+          if (character == length) {
+              clearTimeout(timeOut);
+          }
+      }, 300);
+  }());
+
+
+/*---------function for 'Let's Connect*/
+  $('#letsConnect').hide().delay(3000).fadeIn(100).fadeOut(100).fadeIn(150).fadeOut(150).fadeIn(200).fadeOut(200).fadeIn(250).fadeOut(250).fadeIn(100);
+  var shimmer = $('#letsConnect');
+    setInterval(function(){
+      shimmer.hasClass('glow') ? shimmer.removeClass('glow') : shimmer.addClass('shimmer');
+}, 1000);
+
+
+/*---------toggle 2nd page (PORTFOLIO)----open/close upon clicking boat 2*/
+  var portfolioBoat = document.getElementById('rowboat2');
+  portfolioBoat.addEventListener ("click", function(e) {
+    e.preventDefault();
+    console.log("clicked");
+
+    var portfolio = document.getElementById('page2');
+    $(portfolio).toggle(function() {
+      portfolio.style.visibility = "hidden";
+      }, function() {
+      portfolio.style.visibility = "visible";
+      });
+
+    $('html, body').animate({
+    scrollTop: $("#page2").offset().top
+    }, 1000);
+  });//end portfolio eventListener
+
+
+  /*---------toggle 3nd page (ABOUT)----open/close upon clicking boat 3*/
+  var aboutBoat = document.getElementById('rowboat3');
+  aboutBoat.addEventListener ("click", function(e) {
+    e.preventDefault();
+    console.log("clicked");
+
+    var about = document.getElementById('page3');
+    $(about).toggle(function() {
+      about.style.visibility = "hidden";
+      }, function() {
+      about.style.visibility = "visible";
+      });
+
+    $('html, body').animate({
+    scrollTop: $("#page3").offset().top
+    }, 1000);
+  });//end about eventListener
+
+
+  /*---------toggle 4th page (SKILLS)----open/close upon clicking boat 4*/
+  var skillsBoat = document.getElementById('rowboat4')
+  skillsBoat.addEventListener("click", function() {
+  console.log("clicked");
+
+
+  var skills = document.getElementById('page4');
+    $(skills).toggle(function() {
+      skills.style.visibility = "hidden";
+      }, function() {
+      skills.style.visibility = "visible";
+      });
+
+    $('html, body').animate({
+    scrollTop: $("#page4").offset().top
+    }, 1000);
+  });//end skillsBoat eventListener
+
+  /*----click 'backend' and have paddle appear along with list of backend skills-----*/
+  var backend = document.getElementById('backend');
+  backend.addEventListener("click", function () {
+  console.log("clicked");
+
+    var paddle2 = document.getElementById('paddle2')
+    $(paddle2).toggle(function() {
+      paddle2.style.visibility = "hidden";
+      }, function() {
+      paddle2.style.visibility = "visible";
+    });
+    var backEndList = document.getElementById('backEndList')
+    $(backEndList).toggle(function() {
+      backEndList.style.visibility = "hidden";
+      }, function() {
+      backEndList.style.visibility = "visible";
+    });
+  });//end backend eventListenfront
+
+
+  /*----click/toggle 'frontend' and have paddle appear along with list of frontend skills-----*/
+  var frontend = document.getElementById('frontend');
+  frontend.addEventListener("click", function () {
+  console.log("clicked");
+
+    var paddle1 = document.getElementById("paddle1");
+    $(paddle1).toggle(function() {
+      paddle1.style.visibility = "hidden";
+      }, function() {
+      paddle1.style.visibility = "visible";
+    });
+    $(frontEndList).toggle(function() {
+      frontEndList.style.visibility = "hidden";
+      }, function() {
+      frontEndList.style.visibility = "visible";
+    });
+  });//end frontend eventListener
+
+  /*----click/toggle liferin end and have new lifering appear along with 'other' skills-----*/
+  var lifering = document.getElementById('lifering');
+  lifering.addEventListener("click", function() {
+    var lifering2 = document.getElementById("lifering2");
+    $(lifering2).toggle(function() {
+      lifering2.style.visibility = "hidden";
+      }, function() {
+      lifering2.style.visibility = "visible";
+    });
+    var music = document.getElementById("music");
+    $(music).toggle(function() {
+      music.style.visibility = "hidden";
+      }, function() {
+      music.style.visibility = "visible";
+    });
+  });//end lifering eventListener
+
+    var chevron1 = document.getElementById('chevronarrow1');
+    chevron1.addEventListener("click", function() {
+    console.log("clicked");
+      $('html, body').animate({
+      scrollTop: $("#page1").offset().top
+    }, 1000);
+    })
+    var chevron2 = document.getElementById('chevronarrow2');
+    chevron2.addEventListener("click", function() {
+    console.log("clicked");
+      $('html, body').animate({
+      scrollTop: $("#page1").offset().top
+    }, 1000);
+    })
+    var chevron3 = document.getElementById('chevronarrow3');
+    chevron3.addEventListener("click", function() {
+    console.log("clicked");
+      $('html, body').animate({
+      scrollTop: $("#page1").offset().top
+    }, 1000);
+    })
+    var chevron4 = document.getElementById('chevronarrow4');
+    chevron4.addEventListener("click", function() {
+    console.log("clicked");
+      $('html, body').animate({
+      scrollTop: $("#page1").offset().top
+    }, 1000);
+    })
+
+    var music = document.getElementById('music')
+    music.addEventListener("click", function() {
+      console.log("clicked");
+      var musicPage = document.getElementById('page5')
+      $(musicPage).toggle(function() {
+        musicPage.style.visibility = "hidden";
+        }, function() {
+        musicPage.style.visibility = "visible";
+      });
+
+      $('html, body').animate({
+      scrollTop: $("#page5").offset().top
+      }, 1000);
+    })//end musicEventListener
+
+
+
+    // var mp3 = document.getElementById('mp3');
+    // console.log(mp3);
+    //
+    // var audio = $("audio")[0];
+    // $("lifering2").mouseenter(function() {
+    //   audio.play();
+    // });
+
+
+}; //end window.onload
