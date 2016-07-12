@@ -572,7 +572,7 @@ body {
   position: absolute;
   top: 0vw;
   left: 40vw;
-  font-family: 'Neon', sans-serif;
+  font-family: 'Neon', cursive;
   font-size: 5vw;
   color: white;
   animation: shimmerFullstack 1s infinite linear;
@@ -615,7 +615,7 @@ animation: rock-lifering 7s ease-in-out infinite;
 }
 
 #music {
-  font-family: 'Neon', sans-serif;
+  font-family: 'Neon', cursive;
   font-size: 3vw;
   position: absolute;
   top: 14vw;
@@ -634,7 +634,7 @@ animation: rock-lifering 7s ease-in-out infinite;
   }
 
 #frontend {
-  font-family: 'Neon', sans-serif;
+  font-family: 'Neon', cursive;
   position: absolute;
   top: 28vw;
   left: 58vw;
@@ -658,7 +658,7 @@ animation: rock-lifering 7s ease-in-out infinite;
 }
 
 #backend {
-  font-family: 'Neon', sans-serif;
+  font-family: 'Neon', cursive;
   position: absolute;
   top: 9vw;
   left: 17vw;
