@@ -185,15 +185,46 @@ var character = 0;
       }, 1000);
     })//end musicEventListener
 
+  //   var lifering2 = document.getElementById('lifering2');
+  //   lifering2.addEventListener("mouseenter", function () {
+  //   console.log("huvahuva")
+  //     var rainbowsAudio= document.getElementById('rainbowsPlay')
+  //     rainbowsAudio.play();
+  //  })//end playRainbows eventListener
 
-
-    // var mp3 = document.getElementById('mp3');
-    // console.log(mp3);
     //
-    // var audio = $("audio")[0];
-    // $("lifering2").mouseenter(function() {
-    //   audio.play();
-    // });
+    // var audio = document.getElementsByTagName('audio')[0];
+    // console.log(audio);
+
+    $("#music").hover(function() {
+      console.log("hovered");
+      var playSong = document.getElementById('rainbowsPlay');
+       playSong.play();
+    });
+
+    $(".lifering2").hover(function() {
+      console.log("huvahuva");
+      var pauseSong = document.getElementById('rainbowsPlay');
+       pauseSong.pause();
+    });
+    // $('#page4').hover(function() {
+    //   console.log("hovered");
+    //   var page4AudioPause = document.getElementById('rainbowsPlay')
+    //   page4AudioPause.pause();
+    // })
+
+//     function addSource(elem, path) {
+//   $('<source>').attr('src', path).appendTo(elem);
+// }
+//
+// $("#lifering2").mouseenter(function(){
+//      var audio = $('<audio />', {
+//        autoPlay : 'autoplay'
+//      });
+//      addSource(audio, 'audio/'+Math.ceil(Math.random() * 5)+'.mp3');
+//      addSource(audio, 'audio/'+Math.ceil(Math.random() * 5)+'.ogg');
+//      audio.appendTo('body');
+// });
 
 
 }; //end window.onload
