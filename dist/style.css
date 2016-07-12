@@ -165,7 +165,7 @@ body {
   /*animation:spin 20s linear infinite;*/
 }
 
-#fbIcon:hover, #liIcon:hover, #instIcon:hover, #gpIcon:hover, #gitIcon:hover, #rowboat2:hover, #rowboat3:hover, #rowboat4:hover {
+#fbIcon:hover, #liIcon:hover, #instIcon:hover, #gpIcon:hover, #gitCont:hover, #rowboat2:hover, #rowboat3:hover, #rowboat4:hover {
   transform: scale(1.4);
 }
 
