@@ -2,7 +2,7 @@
 /*@import url(http://db.onlinewebfonts.com/c/cf984f65c2e069f0eed597bb0cee542d?family=HTNeonW01-Regular);*/
 @font-face {
 font-family: 'Neon';
-src: url('./fonts/NeonCopy.ttf');
+src: url('fonts/NeonCopy.ttf');
 }
 
 
@@ -165,7 +165,7 @@ body {
   /*animation:spin 20s linear infinite;*/
 }
 
-#fbIcon:hover, #liIcon:hover, #instIcon:hover, #gpIcon:hover, #gitIcon:hover, #rowboat2:hover, #rowboat3:hover, #rowboat4:hover {
+#fbIcon:hover, #liIcon:hover, #instIcon:hover, #gpIcon:hover, #gitCont:hover, #rowboat2:hover, #rowboat3:hover, #rowboat4:hover {
   transform: scale(1.4);
 }
 
