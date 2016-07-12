@@ -2,7 +2,7 @@
 /*@import url(http://db.onlinewebfonts.com/c/cf984f65c2e069f0eed597bb0cee542d?family=HTNeonW01-Regular);*/
 @font-face {
 font-family: 'Neon';
-src: url('/NeonCopy.ttf');
+src: url('NeonCopy.ttf');
 }
 
 
@@ -160,7 +160,9 @@ body {
   height: 3vw;
   width: 3vw;
   z-index: 100;
-  animation:spin 20s linear infinite;
+  /*border: .2vw solid white;
+  border-radius: 100%;*/
+  /*animation:spin 20s linear infinite;*/
 }
 
 #fbIcon:hover, #liIcon:hover, #instIcon:hover, #gpIcon:hover, #gitIcon:hover, #rowboat2:hover, #rowboat3:hover, #rowboat4:hover {
@@ -207,7 +209,7 @@ body {
 }
 
 #letsConnect {
-  font-family: 'Neon', sans-serif;;
+  font-family: 'Neon', sans-serif;
   font-size: 4vw;
   color: #a77fe3;
   position: absolute;
@@ -570,7 +572,7 @@ body {
   position: absolute;
   top: 0vw;
   left: 40vw;
-  font-family: "HTNeonW01-Regular";
+  font-family: 'Neon', sans-serif;
   font-size: 5vw;
   color: white;
   animation: shimmerFullstack 1s infinite linear;
@@ -613,7 +615,7 @@ animation: rock-lifering 7s ease-in-out infinite;
 }
 
 #music {
-  font-family: "HTNeonW01-Regular";
+  font-family: 'Neon', sans-serif;
   font-size: 3vw;
   position: absolute;
   top: 14vw;
@@ -627,8 +629,12 @@ animation: rock-lifering 7s ease-in-out infinite;
   animation: shimmerMusic 1s infinite linear;
   }
 
+  #music:hover {
+    transform: scale(1.4);
+  }
+
 #frontend {
-  font-family: "HTNeonW01-Regular";
+  font-family: 'Neon', sans-serif;
   position: absolute;
   top: 28vw;
   left: 58vw;
@@ -640,7 +646,7 @@ animation: rock-lifering 7s ease-in-out infinite;
 }
 
 #frontend:hover {
-  font-family: "HTNeonW01-Regular";
+  font-family: 'Neon', sans-serif;
   position: absolute;
   top: 28vw;
   left: 56vw;
@@ -652,7 +658,7 @@ animation: rock-lifering 7s ease-in-out infinite;
 }
 
 #backend {
-  font-family: "HTNeonW01-Regular";
+  font-family: 'Neon', sans-serif;
   position: absolute;
   top: 9vw;
   left: 17vw;
@@ -663,7 +669,7 @@ animation: rock-lifering 7s ease-in-out infinite;
 }
 
 #backend:hover {
-  font-family: "HTNeonW01-Regular";
+  font-family: 'Neon', sans-serif;
   position: absolute;
   top: 9vw;
   left: 17vw;
@@ -696,7 +702,7 @@ animation: rock-lifering 7s ease-in-out infinite;
 }
 
 #frontEndList {
-  font-family: "HTNeonW01-Regular";
+  font-family: 'Neon', sans-serif;
   font-size: 3vw;
   z-index: 60;
   display: none;
@@ -708,7 +714,7 @@ animation: rock-lifering 7s ease-in-out infinite;
 }
 
 #backEndList {
-  font-family: "HTNeonW01-Regular";
+  font-family: 'Neon', sans-serif;
   font-size: 3vw;
   z-index: 60;
   display: none;
@@ -725,7 +731,6 @@ animation: rock-lifering 7s ease-in-out infinite;
   display: none;
   height: 58vw;
   width: 100%;
-  border: 2vw solid linear-gradient(to right, yellow , green);
 }
 
 #coverPhoto {
@@ -735,13 +740,176 @@ animation: rock-lifering 7s ease-in-out infinite;
 
 #bioCont {
   color: white;
-  font-family: cursive;
+  font-family: 'Rock Salt', cursive;
   position: absolute;
   height: 44vw;
   width: 37vw;
   top: 9vw;
   right: 2%;
 }
+
+#bio {
+  font-size: 1.5vw;
+}
+
+#songsContainer {
+  position: absolute;
+  left: 5%;
+  top: 10%;
+  height: 25vw;
+  width: 27%;
+  /*border: .2vw solid black;*/
+  border-radius: 10%;
+}
+#brick {
+  position: absolute;
+  /*left: 5%;
+  top: 10%;*/
+  height: 100%;
+  width: 100%;
+  /*border: .2vw solid black;*/
+  border-radius: 10%;
+  opacity: .5;
+}
+
+/*-------RAINBOWS----------*/
+
+/*#rainbowsDiv {
+  width: 20%;
+  height: 10%;
+  position: absolute;
+  top: 20%;
+  left: 10%;
+}*/
+
+#rainbowsPlay {
+  height: 3.5vw;
+  width: 2.5vw;
+  position: absolute;
+  top: 2vw;
+  left: 5%;
+  color: white;
+}
+
+#title-rainbows {
+  font-size: 1.3vw;
+  font-weight: bolder;
+  /*text-shadow: .1vw .1vw white;*/
+  position: absolute;
+  top: 1.5vw;
+  left: 23%;
+  color: white;
+  font-family: 'Rock Salt', cursive;
+}
+
+#link1 {
+  position: absolute;
+  top: 3vw;
+  left: 1%;
+}
+/*-------ROCKING----------*/
+
+/*#rockingchairDiv {
+  width: 20%;
+  height: 10%;
+  position: absolute;
+  top: 25%;
+  left: 10%;
+}*/
+
+#rockingchairPlay {
+  height: 3.5vw;
+  width: 2.5vw;
+  position: absolute;
+  top: 6vw;
+  left: 5%;
+  color: white;
+}
+
+#title-rockingchair {
+  font-size: 1.3vw;
+  font-weight: bolder;
+  /*text-shadow: .1vw .1vw white;*/
+  position: absolute;
+  top: 5.5vw;
+  left: 23%;
+  color: white;
+  font-family: 'Rock Salt', cursive;
+}
+
+/*------CREEDENCE----------*/
+
+#creedencePlay {
+  height: 3.5vw;
+  width: 2.5vw;
+  position: absolute;
+  top: 10vw;
+  left: 5%;
+  color: white;
+}
+
+#title-creedence {
+  font-size: 1.3vw;
+  font-weight: bolder;
+  /*text-shadow: .1vw .1vw white;*/
+  position: absolute;
+  top: 9.5vw;
+  left: 23%;
+  color: white;
+  font-family: 'Rock Salt', cursive;
+}
+
+
+/*------CAN'T BE BOTH----------*/
+
+#cantbebothPlay {
+  height: 3.5vw;
+  width: 2.5vw;
+  position: absolute;
+  top: 14vw;
+  left: 5%;
+  color: white;
+}
+
+#title-cantbeboth {
+  font-size: 1.3vw;
+  font-weight: bolder;
+  /*text-shadow: .1vw .1vw white;*/
+  position: absolute;
+  top: 13.5vw;
+  left: 23%;
+  color: white;
+  font-family: 'Rock Salt', cursive;
+}
+
+/*------LULLABY----------*/
+
+#lullabyPlay {
+  height: 3.5vw;
+  width: 2.5vw;
+  position: absolute;
+  top: 18vw;
+  left: 5%;
+  color: white;
+}
+
+#title-lullaby {
+  font-size: 1.3vw;
+  font-weight: bolder;
+  /*text-shadow: .1vw .1vw white;*/
+  position: absolute;
+  top: 17.5vw;
+  left: 23%;
+  color: white;
+  font-family: 'Rock Salt', cursive;
+}
+
+
+
+
+
+
+
 
 
 
