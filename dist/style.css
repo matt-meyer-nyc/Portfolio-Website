@@ -220,10 +220,10 @@ body {
 }
 
 /* Link to Other Portfolio */
-/*#stage {
+#stage {
   position: absolute;
-  top: 5vw;
-  right: 3vw;
+  top: 23vw;
+  right: 16.5vw;
   height: 70px;
   width: 70px;
   border-radius: 100%;
@@ -233,7 +233,7 @@ body {
    -moz-perspective: 1200px;
    -ms-perspective: 1200px;
    perspective: 1200px;
-}*/
+}
 
 #spinner {
   position: absolute;
