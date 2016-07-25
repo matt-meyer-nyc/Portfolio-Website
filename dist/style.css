@@ -224,23 +224,23 @@ body {
   position: absolute;
   top: 23vw;
   right: 16.5vw;
-  height: 70px;
-  width: 70px;
+  height: 7vw;
+  width: 7vw;
   border-radius: 100%;
   background: rgba(0,0,0,0.5);
   margin: 1em auto;
-   -webkit-perspective: 1200px;
-   -moz-perspective: 1200px;
-   -ms-perspective: 1200px;
-   perspective: 1200px;
+   -webkit-perspective: 120vw;
+   -moz-perspective: 120vw;
+   -ms-perspective: 120vw;
+   perspective: 120vw;
 }
 
 #spinner {
   position: absolute;
-  top: 0vw;
-  right: 0vw;
-  height: 70px;
-  width: 70px;
+  bottom: 3vw;
+  left: 3vw;
+  height: 7vw;
+  width: 7vw;
   border-radius: 100%;
   background: white;
   color: black;
@@ -250,12 +250,12 @@ body {
    -webkit-animation-name: spinner;
    -webkit-animation-timing-function: linear;
    -webkit-animation-iteration-count: infinite;
-   -webkit-animation-duration: 6s;
+   -webkit-animation-duration: 8s;
 
    animation-name: spinner;
    animation-timing-function: linear;
    animation-iteration-count: infinite;
-   animation-duration: 6s;
+   animation-duration: 8s;
 
    -webkit-transform-style: preserve-3d;
    -moz-transform-style: preserve-3d;
