@@ -237,8 +237,8 @@ body {
 
 #spinner {
   position: absolute;
-  top: 39vw;
-  right: 30vw;
+  top: 30vw;
+  right: 9vw;
   height: 70px;
   width: 70px;
   border-radius: 100%;
