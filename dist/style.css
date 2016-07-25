@@ -2,7 +2,7 @@
 /*@import url(http://db.onlinewebfonts.com/c/cf984f65c2e069f0eed597bb0cee542d?family=HTNeonW01-Regular);*/
 @font-face {
 font-family: 'Neon';
-src: url('..app/fonts/NeonCopy.ttf');
+src: url('NeonCopy.ttf');
 }
 
 
@@ -238,7 +238,7 @@ body {
 #spinner {
   font-size: 1.5vw;
   position: absolute;
-  bottom: 5vw;
+  bottom: 6.5vw;
   left: 6vw;
   height: 7vw;
   width: 7vw;
