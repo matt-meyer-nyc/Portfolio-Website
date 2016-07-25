@@ -2,7 +2,7 @@
 /*@import url(http://db.onlinewebfonts.com/c/cf984f65c2e069f0eed597bb0cee542d?family=HTNeonW01-Regular);*/
 @font-face {
 font-family: 'Neon';
-src: url('../fonts/NeonCopy.ttf');
+src: url('..app/fonts/NeonCopy.ttf');
 }
 
 
@@ -221,6 +221,9 @@ body {
 
 /* Link to Other Portfolio */
 #stage {
+  position: absolute;
+  top: 5vw;
+  right: 3vw;
   height: 70px;
   width: 70px;
   border-radius: 100%;
@@ -233,6 +236,9 @@ body {
 }
 
 #spinner {
+  position: absolute;
+  top: 5vw;
+  right: 3vw;
   height: 70px;
   width: 70px;
   border-radius: 100%;
