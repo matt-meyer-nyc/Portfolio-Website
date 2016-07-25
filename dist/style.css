@@ -238,8 +238,8 @@ body {
 #spinner {
   font-size: 1.5vw;
   position: absolute;
-  bottom: 6.5vw;
-  left: 6vw;
+  bottom: 9vw;
+  right: 30vw;
   height: 7vw;
   width: 7vw;
   border-radius: 100%;
