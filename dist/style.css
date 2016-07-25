@@ -236,10 +236,11 @@ body {
 }
 
 #spinner {
+  z-index: 2;
   font-size: 1.5vw;
   position: absolute;
   bottom: 9.75vw;
-  right: 34.75vw;
+  right: 35vw;
   height: 8vw;
   width: 6vw;
   border-radius: 50%;
