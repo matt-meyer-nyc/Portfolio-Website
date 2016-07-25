@@ -239,10 +239,10 @@ body {
   font-size: 1.5vw;
   position: absolute;
   bottom: 9.75vw;
-  right: 34.5vw;
+  right: 34.75vw;
   height: 8vw;
-  width: 7vw;
-  border-radius: 100%;
+  width: 6vw;
+  border-radius: 50%;
   background: white;
   color: black;
   opacity: .6;
@@ -270,7 +270,7 @@ body {
 
 #spinner:hover {
   text-decoration: none;
-  opacity: .2;
+  opacity: .4;
   -webkit-animation-play-state: paused;
    animation-play-state: paused;
 }
