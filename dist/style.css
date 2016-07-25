@@ -222,8 +222,8 @@ body {
 /* Link to Other Portfolio */
 #stage {
   position: absolute;
-  top: 23vw;
-  right: 16.5vw;
+  top: 8vw;
+  right: 30vw;
   height: 7vw;
   width: 7vw;
   border-radius: 100%;
@@ -239,8 +239,8 @@ body {
   z-index: 2;
   font-size: 1.5vw;
   position: absolute;
-  bottom: 9.75vw;
-  right: 35vw;
+  bottom: 10.5vw;
+  right: 35.5vw;
   height: 8vw;
   width: 6vw;
   border-radius: 50%;
