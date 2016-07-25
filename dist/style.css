@@ -238,11 +238,12 @@ body {
 #spinner {
   position: absolute;
   top: 23vw;
-  right: 14vw;
+  right: 16vw;
   height: 70px;
   width: 70px;
   border-radius: 100%;
-  background: rgba(0,0,0,0.5);
+  background: white;
+  opacity: .7;
   text-align: center;
   color: #fff;
 
