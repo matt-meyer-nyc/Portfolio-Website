@@ -223,7 +223,7 @@ body {
 #stage {
   position: absolute;
   top: 8vw;
-  right: 30vw;
+  right: 90vw;
   height: 7vw;
   width: 7vw;
   border-radius: 100%;
@@ -238,10 +238,10 @@ body {
 #spinner {
   z-index: 2;
   font-size: 1.5vw;
-  position: absolute;
+  position: relative;
   bottom: 10.5vw;
-  right: 35.5vw;
-  height: 8vw;
+  right: 0vw;
+  height: 0vw;
   width: 6vw;
   border-radius: 50%;
   background: white;
