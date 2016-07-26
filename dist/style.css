@@ -220,7 +220,7 @@ body {
 }
 
 /* Link to Other Portfolio */
-#stage {
+/*#stage {
   position: absolute;
   top: 8vw;
   right: 90vw;
@@ -233,6 +233,14 @@ body {
    -moz-perspective: 120vw;
    -ms-perspective: 120vw;
    perspective: 120vw;
+}*/
+
+#busLink {
+  position: relative;
+  bottom: 10.5vw;
+  right: 40vw;
+  height: 10vw;
+  width: 6vw;
 }
 
 #spinner {
@@ -240,8 +248,8 @@ body {
   font-size: 1.5vw;
   position: relative;
   bottom: 10.5vw;
-  right: 0vw;
-  height: 0vw;
+  right: 40vw;
+  height: 10vw;
   width: 6vw;
   border-radius: 50%;
   background: white;
@@ -265,9 +273,7 @@ body {
    transform-style: preserve-3d;
 }
 
-.header a {
-  text-decoration: none;
-}
+
 
 #spinner:hover {
   text-decoration: none;
