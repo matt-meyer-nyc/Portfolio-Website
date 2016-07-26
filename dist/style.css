@@ -220,7 +220,7 @@ body {
 }
 
 /* Link to Other Portfolio */
-/*#stage {
+#stage {
   position: absolute;
   top: 8vw;
   right: 90vw;
@@ -233,10 +233,10 @@ body {
    -moz-perspective: 120vw;
    -ms-perspective: 120vw;
    perspective: 120vw;
-}*/
+}
 
 #busLink {
-  position: relative;
+  position: absolute;
   bottom: 10.5vw;
   right: 40vw;
   height: 10vw;
@@ -246,7 +246,7 @@ body {
 #spinner {
   z-index: 2;
   font-size: 1.5vw;
-  position: relative;
+  position: absolute;
   bottom: 10.5vw;
   right: 40vw;
   height: 10vw;
