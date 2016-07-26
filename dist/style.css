@@ -277,6 +277,7 @@ body {
 
 
 #spinner:hover {
+  color: #9d35bd;
   text-decoration: none;
   opacity: .4;
   -webkit-animation-play-state: paused;
