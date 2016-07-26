@@ -277,10 +277,10 @@ body {
 
 
 #spinner:hover {
-  border: 1px solid white;
+  /*border: 1px solid white;*/
   color: #9d35bd;
   text-decoration: none;
-  opacity: .4;
+  opacity: 1;
   -webkit-animation-play-state: paused;
    animation-play-state: paused;
 }
