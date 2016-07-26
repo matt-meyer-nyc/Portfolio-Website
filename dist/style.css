@@ -244,11 +244,12 @@ body {
 }*/
 
 #spinner {
+  border: 1vw solid white;
   z-index: 2;
   font-size: 1.5vw;
   position: absolute;
-  bottom: 10.5vw;
-  right: 40vw;
+  top: 6vw;
+  right: 44vw;
   height: 10vw;
   width: 6vw;
   border-radius: 50%;
