@@ -220,7 +220,7 @@ body {
 }
 
 /* Link to Other Portfolio */
-#stage {
+/*#stage {
   position: absolute;
   top: 8vw;
   right: 90vw;
@@ -233,15 +233,15 @@ body {
    -moz-perspective: 120vw;
    -ms-perspective: 120vw;
    perspective: 120vw;
-}
+}*/
 
-#busLink {
+/*#busLink {
   position: absolute;
-  bottom: 10.5vw;
-  right: 40vw;
+  bottom: 8vw;
+  right: 60vw;
   height: 10vw;
   width: 6vw;
-}
+}*/
 
 #spinner {
   z-index: 2;
