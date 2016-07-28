@@ -160,9 +160,6 @@ body {
   height: 3vw;
   width: 3vw;
   z-index: 100;
-  /*border: .2vw solid white;
-  border-radius: 100%;*/
-  /*animation:spin 20s linear infinite;*/
 }
 
 #fbIcon:hover, #liIcon:hover, #instIcon:hover, #gpIcon:hover, #gitCont:hover, #rowboat2:hover, #rowboat3:hover, #rowboat4:hover {
@@ -175,12 +172,6 @@ body {
   right: 18vw;
   z-index: 2;
 }
-/*
-#fbIcon {
-  position: absolute;
-  top: 51vw;
-  right: 18vw;
-}*/
 
 #liCont {
   position: absolute;
@@ -219,30 +210,6 @@ body {
   animation: shimmer 1s infinite linear;
 }
 
-/* Link to Other Portfolio */
-/*#stage {
-  position: absolute;
-  top: 8vw;
-  right: 90vw;
-  height: 7vw;
-  width: 7vw;
-  border-radius: 100%;
-  background: rgba(0,0,0,0.5);
-  margin: 1em auto;
-   -webkit-perspective: 120vw;
-   -moz-perspective: 120vw;
-   -ms-perspective: 120vw;
-   perspective: 120vw;
-}*/
-
-/*#busLink {
-  position: absolute;
-  bottom: 8vw;
-  right: 60vw;
-  height: 10vw;
-  width: 6vw;
-}*/
-
 #spinner {
   border: 1vw solid white;
   z-index: 2;
@@ -277,7 +244,6 @@ body {
 
 
 #spinner:hover {
-  /*border: 1px solid white;*/
   color: #9d35bd;
   text-decoration: none;
   opacity: 1;
@@ -485,6 +451,11 @@ body {
 }
 
 
+#proj1Pic:hover, #proj2Pic:hover, #proj3Pic:hover, #proj4Pic:hover {
+  opacity: .7;
+}
+
+
 /*----------ABOUT PAGE-------------------*/
 
 
@@ -581,7 +552,6 @@ body {
 	right: 22vw;
 	bottom: 0;
 	left: 0;
-	/*background: rgba(0,0,0,0.8);*/
 	z-index: 99999;
 	opacity:0;
 	-webkit-transition: opacity 400ms ease-in;
@@ -843,29 +813,17 @@ animation: rock-lifering 7s ease-in-out infinite;
   top: 10%;
   height: 25vw;
   width: 27%;
-  /*border: .2vw solid black;*/
   border-radius: 10%;
 }
 #brick {
   position: absolute;
-  /*left: 5%;
-  top: 10%;*/
   height: 100%;
   width: 100%;
-  /*border: .2vw solid black;*/
   border-radius: 10%;
   opacity: .5;
 }
 
 /*-------RAINBOWS----------*/
-
-/*#rainbowsDiv {
-  width: 20%;
-  height: 10%;
-  position: absolute;
-  top: 20%;
-  left: 10%;
-}*/
 
 #rainbowsPlay {
   height: 3.5vw;
@@ -879,7 +837,6 @@ animation: rock-lifering 7s ease-in-out infinite;
 #title-rainbows {
   font-size: 1.3vw;
   font-weight: bolder;
-  /*text-shadow: .1vw .1vw white;*/
   position: absolute;
   top: 1.5vw;
   left: 23%;
@@ -894,13 +851,6 @@ animation: rock-lifering 7s ease-in-out infinite;
 }
 /*-------ROCKING----------*/
 
-/*#rockingchairDiv {
-  width: 20%;
-  height: 10%;
-  position: absolute;
-  top: 25%;
-  left: 10%;
-}*/
 
 #rockingchairPlay {
   height: 3.5vw;
@@ -914,7 +864,6 @@ animation: rock-lifering 7s ease-in-out infinite;
 #title-rockingchair {
   font-size: 1.3vw;
   font-weight: bolder;
-  /*text-shadow: .1vw .1vw white;*/
   position: absolute;
   top: 5.5vw;
   left: 23%;
@@ -936,7 +885,6 @@ animation: rock-lifering 7s ease-in-out infinite;
 #title-creedence {
   font-size: 1.3vw;
   font-weight: bolder;
-  /*text-shadow: .1vw .1vw white;*/
   position: absolute;
   top: 9.5vw;
   left: 23%;
@@ -959,7 +907,6 @@ animation: rock-lifering 7s ease-in-out infinite;
 #title-cantbeboth {
   font-size: 1.3vw;
   font-weight: bolder;
-  /*text-shadow: .1vw .1vw white;*/
   position: absolute;
   top: 13.5vw;
   left: 23%;
@@ -981,20 +928,12 @@ animation: rock-lifering 7s ease-in-out infinite;
 #title-lullaby {
   font-size: 1.3vw;
   font-weight: bolder;
-  /*text-shadow: .1vw .1vw white;*/
   position: absolute;
   top: 17.5vw;
   left: 23%;
   color: white;
   font-family: 'Rock Salt', cursive;
 }
-
-
-
-
-
-
-
 
 
 
