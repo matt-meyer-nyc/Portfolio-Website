@@ -1,11 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Rock+Salt);
-/*@import url(http://db.onlinewebfonts.com/c/cf984f65c2e069f0eed597bb0cee542d?family=HTNeonW01-Regular);*/
+/*onlinewebfonts connection not working, maybe try again?
+@import url(http://db.onlinewebfonts.com/c/cf984f65c2e069f0eed597bb0cee542d?family=HTNeonW01-Regular);*/
 @font-face {
 font-family: 'Neon';
 src: url('../fonts/NeonCopy.ttf');
 }
-
-
 
 body {
   background-color: black;
@@ -160,9 +159,6 @@ body {
   height: 3vw;
   width: 3vw;
   z-index: 100;
-  /*border: .2vw solid white;
-  border-radius: 100%;*/
-  /*animation:spin 20s linear infinite;*/
 }
 
 #fbIcon:hover, #liIcon:hover, #instIcon:hover, #gpIcon:hover, #gitCont:hover, #rowboat2:hover, #rowboat3:hover, #rowboat4:hover {
@@ -175,12 +171,7 @@ body {
   right: 18vw;
   z-index: 2;
 }
-/*
-#fbIcon {
-  position: absolute;
-  top: 51vw;
-  right: 18vw;
-}*/
+
 
 #liCont {
   position: absolute;
@@ -224,7 +215,6 @@ body {
 
 
 #page2 {
-  /*background-image: url(https://s31.postimg.org/75cgd8p3v/sayagata_400px.png);*/
   position: relative;
   width: 100%;
   height: 105vw;
@@ -292,8 +282,6 @@ body {
   color: #3d2b13;
   margin: 0 auto;
 }
-
-
 
 #proj2Pic {
   height: 25vw;
@@ -399,6 +387,9 @@ body {
 	animation: pulse linear 1s infinite;
 }
 
+#proj1Pic:hover, #proj2Pic:hover, #proj3Pic:hover, #proj4Pic:hover {
+  opacity: .7;
+}
 
 /*----------ABOUT PAGE-------------------*/
 
